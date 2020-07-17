@@ -11,6 +11,16 @@
     - correctness (tests)
     - performance (profiling)
 
+
+## What is McCabe complexity?
+Also known as cyclomatic complexity, it is the number of paths the code can take. The number goes higher than 1 if the number of control flow statements are higher than 0.
+
+To see what this number is ->
+
+- `pip install mccabe`
+- `python -m mccabe --min 1 pyq_mccabe.py`
+
+
 ## For Django Projects
 
 #### `pylint-django`
