@@ -12,12 +12,13 @@
     - readability (stylizing/documentation)
 
 # Modularity
-
+- In a bid to reduce complexity and to avoid ambiguity, each function must do only one task. 
+- Separate functionalities as much as possible.
 
 ## Question of debate - 1 or many?
 
-- There is really no 1 tool to rule them all
-- But there can be a minimal set. 
+- There is really no 1 tool to rule them all. 
+- Or is there? ;) 
 
 
 # Correctness
@@ -43,6 +44,7 @@ Not all operations are equally expensive. In long running scripts that are not v
 
 # What about memory usage?
 - That is important is some sectors and can be considered a measure of quality.
+- How do you handle different data types?
 - It can be measured using a simple decorator as well. Illustrated in pyq_mem_profile.py
 
 #### What can you use to profile time?
@@ -104,3 +106,10 @@ repos:
 
 - This performs all the operations in the Config file for you. 
 - What else can you do with it?
+
+
+## Coming back to our question of debate - 1 or many?
+
+- Is there really 1 tool to rule them all?
+- Prospector comes close. 
+- But you will have to run pytest and coverage anyway. 
