@@ -60,7 +60,7 @@ Not all operations are equally expensive. In long running scripts that are not v
 - While everyone's tolerance and abilities differ, it's good to have a standard set of practices.
 - In the absence of such a standard on a company-wide level, PEP-8 serves as a good reference. 
 - There are companies that have their own style guides - Google for e.g.
-- To facilitate this, we have pylint, black
+- To facilitate this, we have [pylint](https://www.pylint.org/), [black](https://github.com/psf/black)
 
 ## For Django Projects
 
