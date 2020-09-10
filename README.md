@@ -113,3 +113,10 @@ repos:
 - Is there really 1 tool to rule them all?
 - Prospector comes close. 
 - But you will have to run pytest and coverage anyway. 
+
+
+## Update 
+
+- [Interrogate](https://interrogate.readthedocs.io/en/latest/) is used to check the coverage of docstrings is complete (or not).
+
+![Interrogate](./after/outputs/interrogate_output.png)
