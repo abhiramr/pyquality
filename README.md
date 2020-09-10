@@ -1,6 +1,6 @@
 # Code Quality - The Practices and the Tools
 
-- This is a repo for the talk for the Bangpypers meetup on 18-07-2020.
+- This is a repo with notes for my talk at the Bangpypers meetup on 18-07-2020. (And notes from lessons learnt later re: Code Quality)
 
 ### Code quality - What is it?
 - It can mean different things to different people.
