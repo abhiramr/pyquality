@@ -12,7 +12,6 @@
     - readability (stylizing/documentation)
 
 ---
----
 
 # Modularity
 - In a bid to reduce complexity and to avoid ambiguity, each function must do only one task. 
@@ -23,7 +22,6 @@
 - There is really no 1 tool to rule them all. 
 - Or is there? ;) 
 
----
 ---
 
 # Correctness
@@ -45,7 +43,6 @@ There are different ways of testing - unit, integration etc.
 - Coverage needs to be ensured. 
 
 ---
----
 
 # Performance
 
@@ -63,7 +60,6 @@ Not all operations are equally expensive. In long running scripts that are not v
 - `kernprof -l pyq1.py`
 - `python -m line_profiler pyq1.py.lprof` 
 
----
 ---
 
 # Readability
@@ -127,7 +123,6 @@ repos:
 - [Prospector](http://prospector.landscape.io/en/master/) comes close. 
 - But you will have to run pytest and coverage anyway. 
 
----
 ---
 
 ## Update 
