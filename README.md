@@ -111,7 +111,7 @@ repos:
 ## Coming back to our question of debate - 1 or many?
 
 - Is there really 1 tool to rule them all?
-- Prospector comes close. 
+- [Prospector](http://prospector.landscape.io/en/master/) comes close. 
 - But you will have to run pytest and coverage anyway. 
 
 
