@@ -66,7 +66,7 @@ Not all operations are equally expensive. In long running scripts that are not v
 
 - Creating a copy of django_sample_project to illustrate what the problem was and what can be after linting. 
 
-#### `pylint-django`
+#### [`pylint-django`](https://github.com/PyCQA/pylint-django)
 
 *Installation and usage*
 
@@ -80,7 +80,7 @@ Expected output -
 Your code has been rated at 10.00/10
 ```
 
-### `pre-commit`
+### [`pre-commit`](https://github.com/pre-commit/pre-commit)
 
 *Installation and usage*
 
